@@ -1,0 +1,265 @@
+/* <--> MOBILE FIRST APPROACH && Sass <-->*/
+/* -- GENERAL STRUCTURE -- */
+html {
+  font-size: 62.5%;
+  /* 1em -- 10px*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* -- FONTS -- */
+h1 {
+  font-size: 3rem;
+  /* 30px */
+  font-family: 'Alfa Slab One', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.big {
+  font-size: 1.5rem;
+}
+
+.small {
+  font-size: .8rem;
+}
+
+i {
+  font-size: .7rem;
+}
+
+/* -- STRUCTURE -- */
+header {
+  margin-top: 1.5rem;
+}
+
+.circle {
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 0rem;
+  border-color: #333333;
+  border-webkit-radius: 50%;
+  border-moz-radius: 50%;
+  border-ms-radius: 50%;
+  border-radius: 50%;
+}
+
+.outer {
+  margin-top: 1rem;
+  height: 28rem;
+  width: 28rem;
+  position: relative;
+  box-shadow: 0rem 0rem 1rem #333333;
+}
+
+.inner {
+  padding-top: 2rem;
+  height: 50%;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index: 1;
+  border-width: .7rem;
+  box-shadow: 0rem 0rem 2rem #333333;
+}
+
+.rowPieces {
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.piece {
+  height: 100%;
+  border: 1rem solid #333333;
+}
+
+.green {
+  background-color: darkGreen;
+  border-webkit-top-left-radius: 100%;
+  border-moz-top-left-radius: 100%;
+  border-ms-top-left-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+.greenIntense {
+  background-color: lawnGreen;
+  border-webkit-top-left-radius: 100%;
+  border-moz-top-left-radius: 100%;
+  border-ms-top-left-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+.red {
+  background-color: darkRed;
+  border-webkit-top-right-radius: 100%;
+  border-moz-top-right-radius: 100%;
+  border-ms-top-right-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.redIntense {
+  background-color: red;
+  border-webkit-top-right-radius: 100%;
+  border-moz-top-right-radius: 100%;
+  border-ms-top-right-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.yellow {
+  background-color: GoldenRod;
+  border-webkit-bottom-left-radius: 100%;
+  border-moz-bottom-left-radius: 100%;
+  border-ms-bottom-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.yellowIntense {
+  background-color: yellow;
+  border-webkit-bottom-left-radius: 100%;
+  border-moz-bottom-left-radius: 100%;
+  border-ms-bottom-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.blue {
+  background-color: darkBlue;
+  border-webkit-bottom-right-radius: 100%;
+  border-moz-bottom-right-radius: 100%;
+  border-ms-bottom-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.blueIntense {
+  background-color: SkyBlue;
+  border-webkit-bottom-right-radius: 100%;
+  border-moz-bottom-right-radius: 100%;
+  border-ms-bottom-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.options {
+  margin: 1rem 0 1rem;
+}
+
+.start {
+  padding: 0 .5rem;
+}
+
+.display {
+  width: 80%;
+  margin: 0 auto;
+  height: 2rem;
+}
+
+.col-xs-3, .col-xs-4 {
+  padding: 0rem;
+}
+
+/* -- SPECIAL -- */
+/* Google borders */
+button:focus {
+  outline: 0;
+}
+
+.btn {
+  border: 0.2rem solid #333333;
+  border-radius: 50%;
+  padding: .5rem;
+  box-shadow: 0rem 0.5rem 1rem 0.1rem #333333 inset;
+}
+
+.clicked {
+  box-shadow: 0rem 0.1rem 0.9rem 0.1rem #333333;
+}
+
+#start {
+  background-color: red;
+}
+
+#strict {
+  background-color: yellow;
+}
+
+.display {
+  background: black;
+  color: red;
+  border-radius: 15%;
+  padding: .2rem 0rem;
+}
+
+.toggle {
+  display: inline-block;
+  width: 20%;
+  background-color: #333333;
+  height: .9rem;
+  position: relative;
+}
+
+.active {
+  border: 0.15rem solid #333333;
+  border-radius: 20%;
+  background-color: #3193de;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+#win {
+  margin-top: 2rem;
+}
+
+/* -- MEDIA QUERIES -- */
+@media screen and (min-width: 45rem) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 100rem) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 140rem) {
+  html {
+    font-size: 25px;
+  }
+}

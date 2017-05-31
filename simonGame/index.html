@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper text-center">
+    <header>
+      <h1>FreeCodeCamp</h1>
+      <h2>Simon Game</h2>
+    </header>
+    <section class="container-fluid">
+      <div class="circle outer">
+        <div class="row rowPieces">
+          <div id="green" class="col-xs-6 piece clickable green"></div>
+          <div id="red" class="col-xs-6 piece clickable red"></div>
+        </div>
+        <div class="row rowPieces">
+          <div id="yellow" class="col-xs-6 piece clickable yellow"></div>
+          <div id="blue" class="col-xs-6 piece clickable blue"></div>
+        </div>
+        <div class="circle inner">
+          <h3>Simon<i class="glyphicon glyphicon-registration-mark"></i></h3>
+          <div class="row options">
+            <div id="count" class="col-xs-4">
+              <p>count</p>
+              <div class="display">
+                <p class="big"></p>
+              </div>
+            </div>
+            <div class="col-xs-4 start">
+              <p>start</p>
+              <button id="start" class="btn"></button>
+            </div>
+            <div class="col-xs-4">
+              <p>strict</p>
+              <button id="strict" class="btn"></button>
+            </div>
+          </div>
+          <div class="power">
+            <span class="small">off</span>
+            <div class="toggle clickable">
+              <div class="active"></div>
+            </div>
+            <span class="small">on</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- #wrapper -->
+
+  <script src="https://use.fontawesome.com/056bf6d00f.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
