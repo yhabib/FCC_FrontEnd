@@ -1,0 +1,176 @@
+*:focus {
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* GENERAL STRUCTURE */
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic,700italic);
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(9, 43, 64);
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+
+/* FONTS */
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: #456B75;
+  color: rgb(217, 111, 50);
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FFF0E3;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+a, p, .searchmatch {
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(250, 250, 250, .7);
+}
+
+
+/* STRUCTURE */
+
+header {
+  margin: 3rem 0 1rem;
+}
+
+a {
+  display: block;
+  border: 5px solid rgba(255, 255, 255, .9);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  text-align: left;
+  box-shadow: 0px 0px 20px 0px rgba(69, 107, 117, .5);
+}
+
+form {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 100%;
+}
+
+#input {
+  background-color: rgb(217, 111, 50);
+  border: 4px solid white;
+  border-radius: 30px;
+  text-indent: 6rem;
+  padding: .5rem;
+  width: 100%;
+}
+
+.fa {
+  position: absolute;
+  top: .75rem;
+}
+
+span {}
+
+.fa-random {
+  left: 1rem;
+  padding-right: .2rem;
+  border-right: .1rem solid white;
+}
+
+.fa-random:hover {
+  cursor: pointer;
+}
+
+.fa-search {
+  left: 4rem;
+}
+
+.fa-times {
+  right: 1rem;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+}
+
+.fa, #input {
+  color: white;
+  font-size: 2.5rem;
+}
+
+#input, .entries {
+  margin: 0 auto;
+}
+
+
+/* EXTRAS */
+
+a:hover {
+  text-decoration: none;
+  color: rgba(250, 250, 250, .7);
+  border: 5px solid rgb(217, 111, 50);
+}
+
+a:hover > h3 {
+  color: rgb(217, 111, 50);
+}
+
+a:hover > p, a:hover .searchmatch {
+  color: white;
+}
+
+.simpleShadowO {
+  text-shadow: 3px 3px 2px rgba(217, 111, 50, .5);
+}
+
+.simpleShadowW {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, .5);
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 13px;
+  }
+  form {
+    width: 95%;
+  }
+  .entries {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  form {
+    width: 90%;
+  }
+  .entries {
+    width: 85%;
+  }
+}
