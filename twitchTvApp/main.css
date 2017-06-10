@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(247, 159, 148);
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 750px;
+}
+
+.content {
+  margin: 0 auto 1rem;
+  border: 1px solid rgb(244, 117, 100);
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin: 2rem 0rem 3rem;
+}
+
+.options {
+  cursor: pointer;
+  width: 24rem;
+}
+
+.menu {
+  font-size: 1rem;
+  background-color: rgb(244, 117, 100);
+  color: white;
+  display: inline-block;
+  margin: 0rem -.1rem 0rem;
+  padding: .5rem 0px;
+  width: 8.1rem;
+  height: 2rem;
+}
+
+.listUsers li {
+  position: relative;
+}
+
+.listUsers a {
+  display: block;
+  height: 3.5rem;
+  padding-top: 1.2rem;
+}
+
+.search, .users {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(244, 117, 100);
+  width: 24.2rem;
+}
+
+.options, .search, .users {
+  margin: 0 auto;
+}
+
+
+/* SPECIAL */
+
+input[type="text"] {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.search {
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1rem 0 .5rem;
+}
+
+.search input {
+  text-indent: 1rem;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 1.1rem;
+  left: 37%;
+  font-size: .7rem;
+  color: rgba(244, 117, 100, .5);
+}
+
+.center {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.profilePic {
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 4rem;
+  top: -.7rem;
+}
+
+.name {
+  color: rgb(244, 117, 100);
+  font-size: 1rem;
+}
+
+.notUser {
+  font-size: 1rem;
+  left: 150px;
+}
+
+.description {
+  position: absolute;
+  top: 1.5rem;
+  left: 10rem;
+  font-size: .6rem;
+  color: rgba(244, 117, 100, .8);
+}
+
+.connected, .noConnected {
+  position: absolute;
+  top: -.4rem;
+  right: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.connected {
+  color: green;
+}
+
+.noConnected {
+  color: rgb(244, 117, 100);
+}
+
+.links:hover {
+  text-decoration: none;
+  background-color: rgba(244, 117, 100, .2);
+}
+
+.wrap {
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  z-index: 1;
+  left: 3.5rem;
+  width: 0;
+  height: 0;
+  border-top: .5rem solid rgb(244, 117, 100);
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+}
+
+
+/* -- SPECIAL -- */
+
+
+/* Google borders */
+
+input:focus {
+  outline: 0;
+}
+
+.name:visited {
+  text-display: none;
+  font-size: 200px;
+}
+
+
+/* -- MEDIA QUERIES -- */
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
