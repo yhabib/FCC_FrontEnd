@@ -1,5 +1,8 @@
 /* <--> MOBILE FIRST APPROACH && Sass <-->*/
+
+
 /* -- GENERAL STRUCTURE -- */
+
 html {
   font-size: 62.5%;
   /* 1em -- 10px*/
@@ -13,15 +16,16 @@ body {
   background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png);
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
 }
 
+
 /* -- FONTS -- */
+
 h1 {
   font-size: 3rem;
   /* 30px */
@@ -60,7 +64,9 @@ i {
   font-size: .7rem;
 }
 
+
 /* -- STRUCTURE -- */
+
 header {
   margin-top: 1.5rem;
 }
@@ -190,8 +196,12 @@ header {
   padding: 0rem;
 }
 
+
 /* -- SPECIAL -- */
+
+
 /* Google borders */
+
 button:focus {
   outline: 0;
 }
@@ -247,17 +257,21 @@ button:focus {
   margin-top: 2rem;
 }
 
+
 /* -- MEDIA QUERIES -- */
+
 @media screen and (min-width: 45rem) {
   html {
     font-size: 15px;
   }
 }
+
 @media screen and (min-width: 100rem) {
   html {
     font-size: 20px;
   }
 }
+
 @media screen and (min-width: 140rem) {
   html {
     font-size: 25px;

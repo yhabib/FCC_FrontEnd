@@ -1,32 +1,38 @@
 /* HEADER - FOOTER */
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
-html,
-body {
+
+html, body {
   font-size: 62.5%;
-	margin:0;
-	padding:0;
-	height:100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
 .wrapper {
-	min-height:100%;
-	position:relative;
+  min-height: 100%;
+  position: relative;
   background: rgb(155, 143, 137);
   padding-top: 3rem;
 }
 
+
 /* PERSONAL */
+
 h1 {
   font-family: 'Sofia', cursive;
   font-size: 1.5rem;
   padding: .6rem 0 .3rem;
 }
+
 h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
+
 .calc {
   background: rgb(243, 238, 231);
   height: 26rem;
@@ -34,12 +40,14 @@ h2 {
   margin: 0 auto;
   border: .2rem solid rgb(117, 111, 110);
   border-radius: 10%;
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0,.6);
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .6);
 }
+
 .title {
   color: rgb(125, 119, 123);
   font-size: 1.5rem;
 }
+
 .displays {
   width: 95%;
   margin: 0 auto;
@@ -48,13 +56,15 @@ h2 {
   border-radius: 15px;
   color: rgb(128, 128, 133);
   box-shadow: 0 0px 2px 1px rgba(0, 0, 0, .5);
-  background: rgba(199, 199, 176,.5);
+  background: rgba(199, 199, 176, .5);
 }
+
 .history {
   height: 30%;
   font-size: 1rem;
   padding: .4rem 0 0 .5rem;
 }
+
 .result {
   border-radius: 0px 0px 15px 15px;
   height: 70%;
@@ -63,10 +73,12 @@ h2 {
   padding-right: .5rem;
   padding-top: 1rem;
 }
+
 .keyboard {
   width: 80%;
   margin: 1rem auto 0rem;
 }
+
 button {
   color: white;
   background: rgb(68, 63, 78);
@@ -76,12 +88,15 @@ button {
   width: 4rem;
   padding-top: .1rem;
 }
-.number{
+
+.number {
   font-size: 1.4rem;
 }
-.ops{
+
+.ops {
   font-size: 1.5rem;
 }
+
 .double {
   font-size: 1.5rem;
   width: 8.5rem;
@@ -89,27 +104,43 @@ button {
 
 
 /* -- SPECIAL -- */
+
 .col-xs-3, .col-xs-6 {
   margin: 0px;
   padding: 0px;
 }
+
 .container {
   padding: 0px;
 }
+
+
 /* Google borders */
+
 button:focus {
   outline: 0;
 }
 
 
 /* -- MEDIA QUERIES -- */
+
 @media screen and (min-width: 45rem) {
-  html { font-size: 15px;}
-  .calc { height:  25rem;}
+  html {
+    font-size: 15px;
+  }
+  .calc {
+    height: 25rem;
+  }
 }
+
 @media screen and (min-width: 60rem) {
-  html { font-size: 20px;}
+  html {
+    font-size: 20px;
+  }
 }
+
 @media screen and (min-width: 120rem) {
-  html { font-size: 25px;}
+  html {
+    font-size: 25px;
+  }
 }

@@ -1,4 +1,6 @@
 /* MOBILE FIRST APPROACH*/
+
+
 /* -- GENERAL STRUCTURE -- */
 
 @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rock+Salt);
@@ -21,6 +23,8 @@ body {
 header {
   margin: 1.5rem 0 4rem;
 }
+
+
 /* -- FONTS -- */
 
 h1 {
@@ -38,10 +42,12 @@ h3 {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 2rem;
 }
+
 h4 {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.5rem;
 }
+
 p {
   font-family: 'Rock Salt', cursive;
   font-size: 1.6rem;
@@ -62,12 +68,16 @@ span {
   font-family: 'Rock Salt', cursive;
   font-size: 2.5rem;
 }
+
+
 /* -- STRUCTURE -- */
 
 #board {
   width: 70%;
   margin: 0 auto;
 }
+
+
 /* -- SPECIAL -- */
 
 .newGame {
@@ -76,9 +86,11 @@ span {
   padding: 3rem 1rem;
   margin: 0 auto;
 }
+
 .options {
-  width:100%;
+  width: 100%;
 }
+
 .options span {
   display: inline-block;
   border: 0.2rem solid white;
@@ -86,9 +98,11 @@ span {
   margin: 3rem 0rem;
   padding: 2rem;
 }
+
 .options span:first-child {
   margin-right: 8rem;
 }
+
 .options span:hover {
   cursor: pointer;
   color: rgb(48, 80, 83);
@@ -124,6 +138,8 @@ span {
   width: 90%;
   margin-bottom: 3rem;
 }
+
+
 /* -- MEDIA QUERIES -- */
 
 @media screen and (min-width: 45rem) {
@@ -131,11 +147,13 @@ span {
     font-size: 14px;
   }
 }
+
 @media screen and (min-width: 100rem) {
   html {
     font-size: 20px;
   }
 }
+
 @media screen and (min-width: 140rem) {
   html {
     font-size: 25px;

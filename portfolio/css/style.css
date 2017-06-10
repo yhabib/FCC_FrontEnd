@@ -1,104 +1,130 @@
-
-
 /* BASIC CONFIGURATION - FOOTER TO THE BOTTOM */
+
 html {
-  font-size: 62.5%;     /* 1em -- 10px*/ 
+  font-size: 62.5%;
+  /* 1em -- 10px*/
   box-sizing: border-box;
 }
-html,
-body {
-	margin:0;
-	padding:0;
-	height:100%;
-}
-.wrapper {
-	min-height:100%;
-	position:relative;
-}
-.content {
-	padding-bottom: 2.5rem; /* Height of the footer element */
-}
-footer {
-	width: 100%;
-	height: 1rem;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  padding-bottom: 2.5rem;
+  /* Height of the footer element */
+}
+
+footer {
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 
 /* DESIGN - FONTS & SIZE */
-header{
+
+header {
   font-family: 'Dancing Script', cursive;
 }
+
 .content, footer {
   font-family: 'Josefin Sans', sans-serif;
 }
+
 h1 {
-  font-size: 3.4rem;    /* 30px */ 
+  font-size: 3.4rem;
+  /* 30px */
 }
 
 h2 {
-  font-size: 2.2em;    /* 20px */
+  font-size: 2.2em;
+  /* 20px */
 }
+
 h3 {
   font-size: 2em;
 }
+
 h4 {
   font-size: 1.5em;
   margin-bottom: .5rem;
 }
+
 h1, h2, h3, h4 {
   color: rgba(0, 0, 0, .8);
 }
+
 header nav {
   font-size: 1.5rem;
 }
+
 .first-letter {
   font-size: 2rem;
 }
+
 .first-letter-inside {
   font-size: 1.5rem;
 }
+
 p {
   font-size: 1.5rem;
   line-height: 150%;
 }
-li{
+
+li {
   font-size: 1.2rem;
   padding-left: 1rem;
   line-height: 130%;
-} 
-.footer p{
+}
+
+.footer p {
   font-size: 1rem;
   line-height: 100%;
 }
+
 .description li {
   font-size: 1.1rem;
   line-height: 100%;
 }
+
 a, p {
   color: rgba(0, 0, 0, .7);
 }
+
 span {
   color: rgba(0, 0, 0, .9);
 }
+
 a:hover {
   text-decoration: none;
   color: black;
 }
 
+
 /* DESIGN - BASICS */
-header{
+
+header {
   margin: 2rem 0 1rem;
 }
+
 header h1 {
   margin-bottom: .5rem;
 }
+
 header nav {
   margin-top: 3rem;
 }
+
 header a {
   margin: 0 3rem;
 }
@@ -112,101 +138,128 @@ header a {
   padding-top: 1rem;
 }
 
-.footer{
+.footer {
   margin: 0 auto;
 }
+
 .noBullets {
-  list-style-type:none;
-}
-.pricipal a:hover {
-  border-bottom:0.0625rem solid black;
+  list-style-type: none;
 }
 
+.pricipal a:hover {
+  border-bottom: 0.0625rem solid black;
+}
+
+
 /* -- BIO --*/
+
 #bio {
   padding-top: 3rem;
   margin-top: 0rem;
 }
-#bio .titles h3, #bio .title h3{
+
+#bio .titles h3, #bio .title h3 {
   padding-bottom: .8rem;
   display: inline-block;
   /*border-bottom: 1px solid #CCCDDD;*/
   padding-left: 0px;
   padding-right: 0px;
-
 }
+
 #bio .title {
   padding-bottom: .8rem;
 }
+
 .stuck {
   margin: 3rem auto 4rem;
   text-align: justify;
 }
+
 .stuck.skills {
   text-align: left;
 }
+
 .biography p, .actually p {
   margin-bottom: 1.5rem;
 }
+
 .skills ul {
   margin-bottom: 1rem;
 }
+
 .titles span {
   margin: 0 1.5rem;
-  color: rgba(0,0,0,.2);
+  color: rgba(0, 0, 0, .2);
 }
+
 .titles span:hover {
   cursor: pointer;
-  color: rgba(0,0,0,.8);
+  color: rgba(0, 0, 0, .8);
 }
+
 .actually, .biography {
   display: none;
 }
+
 .titles .active {
   color: rgb(0, 0, 0);
   border-bottom: 1px solid black;
 }
+
 .titles {
   display: none;
 }
+
 .title {
   text-align: center;
 }
+
 .fa-circle {
   margin: 0 10px;
 }
+
 .fa-circle:hover {
   cursor: pointer;
 }
+
 .methodology li {
   margin-top: 1rem;
 }
+
 .mobile {
   margin-bottom: 2rem;
 }
 
+
 /* -- PORTFOLIO --*/
-.description { 
+
+.description {
   text-align: center;
   display: inline-box;
 }
+
 .description li {
   margin-bottom: 1rem;
 }
+
 .frontend {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
 .basic {
   margin-top: 5rem;
 }
+
 #portfolio {
   padding-top: 2rem;
 }
+
 .fullApp {
   text-decoration: none;
   font-weight: bold;
 }
+
 .fullApp:hover {
   text-decoration: none;
   font-weight: bold;
@@ -215,27 +268,29 @@ header a {
 
 
 /* -- BACKGROUNDS -- */
+
 .background {
   margin-top: 2.5rem;
   position: relative;
 }
+
 .slogan {
   color: #EEEEEE;
   font-size: 2.5rem;
   position: absolute;
   top: 35%;
 }
+
 .left {
   left: 3%;
 }
+
 .right {
   right: 3%;
 }
+
 #designBackground {
-  background: 
-    linear-gradient(to bottom, #fff, transparent 1%),
-    linear-gradient(to top, #fff, transparent 30%),
-    url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/FSPLFPQBCZ.jpg") no-repeat center center fixed;  
+  background: linear-gradient(to bottom, #fff, transparent 1%), linear-gradient(to top, #fff, transparent 30%), url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/FSPLFPQBCZ.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -243,11 +298,9 @@ header a {
   width: 100%;
   height: 45rem;
 }
+
 #workBackground {
-  background: 
-    linear-gradient(to bottom, #fff, transparent 1%),
-    linear-gradient(to top, #fff, transparent 50%),
-    url("http://www.mailconsult.net/blog/wp-content/uploads/2014/04/DeathtoStock_Wired3.jpg") no-repeat center center fixed;  
+  background: linear-gradient(to bottom, #fff, transparent 1%), linear-gradient(to top, #fff, transparent 50%), url("http://www.mailconsult.net/blog/wp-content/uploads/2014/04/DeathtoStock_Wired3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -255,11 +308,9 @@ header a {
   width: 100%;
   height: 40rem;
 }
+
 #contactBackground {
-  background: 
-    linear-gradient(to bottom, #fff, transparent 1%),
-    linear-gradient(to top, #fff, transparent 50%),
-    url("http://theaffray.com.au/wp-content/uploads/2014/09/DeathtoStock_NotStock7.jpg") no-repeat center center fixed;  
+  background: linear-gradient(to bottom, #fff, transparent 1%), linear-gradient(to top, #fff, transparent 50%), url("http://theaffray.com.au/wp-content/uploads/2014/09/DeathtoStock_NotStock7.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -268,9 +319,10 @@ header a {
   height: 35rem;
 }
 
+
 /* -- CONTACT -- */
 
-.contactNav i{
+.contactNav i {
   width: 2.7rem;
   height: 2.7rem;
   border: none;
@@ -278,16 +330,20 @@ header a {
   line-height: 2.5rem;
   background-color: rgba(150, 200, 200, 0.15);
 }
-.contactNav i:hover{
+
+.contactNav i:hover {
   color: rgba(150, 200, 200, 1);
   background-color: rgba(0, 0, 0, 1);
 }
+
 i, .contactNav a {
   font-size: 1.5rem;
 }
 
+
 /* -- EXTRAS - TO HOME -- */
-button{
+
+button {
   position: fixed;
   right: 2%;
   top: 10%;
@@ -296,6 +352,7 @@ button{
   border: none;
   display: none;
 }
+
 button:hover {
   animation-name: example;
   animation-duration: 0.5s;
@@ -304,26 +361,34 @@ button:hover {
 
 
 /* -- EXTRAS - DESIGN -- */
+
 button:focus {
   outline: 0;
 }
+
 .divider {
   border-color: #CCCDDD;
   padding: 0;
   margin: .5rem auto 3rem;
 }
+
 .special {
   margin: .5rem auto;
 }
+
 .small {
   width: 7.5rem;
 }
+
 .medium {
   width: 15rem;
 }
+
 .large {
   width: 80%;
 }
+
+
 /*.shadow {
   text-shadow: 0 .1rem 0 #ccc,
                0 .2rem 0 #c9c9c9,
@@ -338,33 +403,59 @@ button:focus {
                0 .10rem .10rem rgba(0,0,0,.2),
                0 .20rem .20rem rgba(0,0,0,.15);
 }*/
+
 .simpleShadow {
-  text-shadow: 1rem 1rem 1rem rgba(0,0,0,.2);
+  text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .2);
 }
+
 .carousel .carousel-control {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 
 /* -- EXTRAS - ANIMATION -- */
+
 @keyframes example {
-  0%   {top:10%;}
-  10%   {top:9.8%;}
-  20%   {top:9.6%;}
-  30%   {top:9.4%;}
-  40%   {top:9.2%;}
-  60%   {top:9%;}
-  70%   {top:8.8%;}
-  80%   {top:8.6%;}
-  90%   {top:8.4%;}
-  100% {top:10%;}
+  0% {
+    top: 10%;
+  }
+  10% {
+    top: 9.8%;
+  }
+  20% {
+    top: 9.6%;
+  }
+  30% {
+    top: 9.4%;
+  }
+  40% {
+    top: 9.2%;
+  }
+  60% {
+    top: 9%;
+  }
+  70% {
+    top: 8.8%;
+  }
+  80% {
+    top: 8.6%;
+  }
+  90% {
+    top: 8.4%;
+  }
+  100% {
+    top: 10%;
+  }
 }
 
 
 /* -- MEDIA QUERIES -- */
+
 @media screen and (min-width: 768px) {
-  html { font-size: 13px;}
+  html {
+    font-size: 13px;
+  }
   .textWrap {
     max-width: 90%;
     margin: 3rem auto 0rem;
@@ -375,20 +466,22 @@ button:focus {
   .titles {
     display: initial;
   }
-  .description { 
-  text-align: left;
-  margin-top: 15%;
+  .description {
+    text-align: left;
+    margin-top: 15%;
   }
-  
 }
+
 @media screen and (min-width: 1024px) {
-  html { font-size: 16px;}
+  html {
+    font-size: 16px;
+  }
   .textWrap {
     max-width: 70%;
     margin: 3rem auto 0rem;
   }
   .stuck.biography, .stuck.actually {
-     max-width: 70%;
+    max-width: 70%;
   }
   .stuck.skills {
     max-width: 90%;
@@ -402,15 +495,19 @@ button:focus {
     max-width: 70%;
   }
 }
+
 @media screen and (min-width: 1366px) {
-  html { font-size: 19px;}
+  html {
+    font-size: 19px;
+  }
   .textWrap {
     max-width: 60%;
   }
-
 }
 
+
 /* -- TEMPORAL -- */
+
 .codepen {
   border: 1px solid black;
   height: 450px;

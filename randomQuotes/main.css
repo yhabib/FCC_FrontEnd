@@ -3,7 +3,8 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-size: 62.5%;  /* 1rem === 10px*/
+  font-size: 62.5%;
+  /* 1rem === 10px*/
 }
 
 header {
@@ -23,7 +24,9 @@ header {
   background-color: rgba(238, 238, 238, 0.8);
 }
 
+
 /*Personal modifications*/
+
 body {
   color: #475;
   background-image: url("http://s1.favim.com/orig/25/birds-illustration-pattern-Favim.com-222759.jpg");
@@ -31,7 +34,8 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 5rem; /* 50px */
+  font-size: 5rem;
+  /* 50px */
 }
 
 p {
