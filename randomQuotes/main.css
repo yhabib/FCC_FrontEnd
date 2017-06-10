@@ -2,13 +2,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 62.5%;
-  /* 1rem === 10px*/
-}
-
-.wrapper {
-  min-height: 100%;
-  position: relative;
+  width: 100%;
+  font-size: 62.5%;  /* 1rem === 10px*/
 }
 
 header {
@@ -28,9 +23,7 @@ header {
   background-color: rgba(238, 238, 238, 0.8);
 }
 
-
 /*Personal modifications*/
-
 body {
   color: #475;
   background-image: url("http://s1.favim.com/orig/25/birds-illustration-pattern-Favim.com-222759.jpg");
@@ -38,8 +31,7 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 5rem;
-  /*100 / 16 = */
+  font-size: 5rem; /* 50px */
 }
 
 p {
@@ -111,7 +103,7 @@ button:focus {
 
 @media screen and (min-width: 65rem) {
   html {
-    font-size: 25px;
+    font-size: 20px;
   }
   blockquote {
     max-width: 70%;
