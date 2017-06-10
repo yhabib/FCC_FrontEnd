@@ -1,0 +1,176 @@
+html {
+  font-size: 62.5%;     /* 1em -- 10px*/ 
+  box-sizing: border-box;
+}
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+.wrapper {
+	min-height:100%;
+	position:relative;
+  color: white;
+}
+header {
+  margin-bottom: 2rem;
+}
+.content {
+	padding-bottom: 25px; /* Height of the footer element */
+}
+footer {
+	width:100%;
+	height:20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+/* STYLE */
+header, footer {
+  font-family: 'Josefin Slab', serif;
+}
+
+header h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+}
+footer p {
+  font-size: 1em;
+  color: white;
+}
+
+
+/*-- WEATHER --*/
+#weather {
+  font-family: 'Maven Pro', sans-serif;
+}
+#city {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#temperatures p{
+  font-size: 1.5rem;
+  display: inline-block;
+}
+#temperatures p:nth-child(2) {
+  font-size: 2.5rem;
+}
+#description {
+  font-size: 1.5rem; 
+}
+img {
+  transform: scale(1.2);
+}
+.shadow {
+  border: .1rem solid white;
+}
+
+#weatherBack {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#description {
+  margin-top: 2rem;
+}
+
+
+/* Different backgrounds for diferennts status --- Sunny, cloudy, rainy, stormy*/
+.sunny {
+  background-image: url(https://farm6.staticflickr.com/5547/10236509126_beb2653f30_b.jpg);
+}
+
+.cloudly {
+  background-image: url(https://farm5.staticflickr.com/4145/4991381941_8bb81ac04a_b.jpg);
+}
+
+.rainy {
+  background-image: url(https://farm5.staticflickr.com/4056/4550059678_c0ae4ce1e1_b.jpg);
+}
+
+.stormy {
+  background-image: url(http://www.toptenpack.com/wp-content/uploads/2014/05/pictures-of-rainy-days.jpg);
+}
+
+.night {
+  background-image: url(https://farm9.staticflickr.com/8523/8555575607_9ebc6f054e_b.jpg);
+}
+
+
+
+/* SWITCH TOGGLE */
+
+.onoffswitch {
+  margin: 0 auto;
+  position: relative; width: 7rem;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #FFFFFF; border-radius: 50px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 2.5rem; padding: 0; line-height: 2.5rem;
+  font-size: 1.5rem; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ºC";
+    padding-right: 3rem;
+    background-color: #EEEEEE; color: #507190;
+}
+.onoffswitch-inner:after {
+    content: "ºF";
+    padding-right: 1rem;
+    background-color: #EEEEEE; color: #507190;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 2.5rem; margin: 1.5px;
+    background: #507190;
+    position: absolute; top: 0; bottom: 0;
+    right: 4rem;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+    background-color: #507190; 
+}
+
+/* -- SPECIAL -- */
+/* Google borders */
+button:focus {
+  outline: 0;
+}
+
+/* -- MEDIA QUERIES -- */
+@media screen and (min-width: 768px) {
+  html { font-size: 13px;}
+  #temperatures p{ display: block;}
+  .onoffswitch { margin-top: 3rem;}
+}
+@media screen and (min-width: 80rem) {
+  html { font-size: 16px;}
+}
+@media screen and (min-width: 120rem) {
+  html { font-size: 20px;}
+}
