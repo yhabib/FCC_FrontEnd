@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Indie+Flower);
+
+/* -- GENERAL STRUCTURE -- */
+
+html {
+  font-size: 62.5%;
+  /* 1rem -- 10px*/
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0 auto;
+  color: white;
+  background-color: #6E8976;
+}
+
+.string {
+  width: 1%;
+  background-color: brown;
+  height: 10rem;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(165, 42, 42, .5);
+  z-index: 10;
+}
+
+.gancho {
+  width: 2%;
+  background-color: #3D3D3D;
+  border-radius: 20%;
+  height: 1rem;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(165, 42, 42, .5);
+}
+
+.content {
+  margin: 0 auto;
+  font-family: 'Indie Flower', cursive;
+  cursive;
+  background-color: #3D3D3D;
+  border: 0.6rem white solid;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 0px 0px 10px 10px rgba(61, 61, 61, .9);
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+#countDown {
+  font-size: 8rem;
+}
+
+#session {
+  font-size: 1.05rem;
+}
+
+.circle {
+  width: 4.815rem;
+  height: 3.5rem;
+  border: 0.125rem solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circle p {
+  top: 25%;
+  left: auto;
+  position: absolute;
+}
+
+.value {
+  padding: .1rem;
+}
+
+button {
+  margin-top: .25rem;
+  background: none;
+  border: none;
+  outline: 0;
+}
+
+
+/* -- SPECIAL -- */
+
+
+/* Google borders */
+
+button:focus {
+  outline: 0;
+}
+
+
+/* -- MEDIA QUERIES -- */
+
+@media screen and (min-width: 45rem) {
+  html {
+    font-size: 15px;
+  }
+  #session {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 120rem) {
+  html {
+    font-size: 25px;
+  }
+  .circle {
+    width: 3.9rem;
+  }
+  .string {
+    height: 5rem;
+  }
+}
