@@ -1,0 +1,143 @@
+/* MOBILE FIRST APPROACH*/
+/* -- GENERAL STRUCTURE -- */
+
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rock+Salt);
+html {
+  font-size: 62.5%;
+  /* 1em -- 10px*/
+}
+
+body {
+  background: rgb(48, 80, 83);
+  box-sizing: border-box;
+  color: white;
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+header {
+  margin: 1.5rem 0 4rem;
+}
+/* -- FONTS -- */
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 4.5rem;
+  letter-spacing: .1rem;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2rem;
+}
+h4 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5rem;
+}
+p {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.6rem;
+}
+
+.question {
+  word-spacing: 1rem;
+  letter-spacing: .2rem;
+  font-size: 1.4rem;
+}
+
+span {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.6rem;
+}
+
+.chip {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.5rem;
+}
+/* -- STRUCTURE -- */
+
+#board {
+  width: 70%;
+  margin: 0 auto;
+}
+/* -- SPECIAL -- */
+
+.newGame {
+  width: 90%;
+  border-top: .2rem solid white;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+}
+.options {
+  width:100%;
+}
+.options span {
+  display: inline-block;
+  border: 0.2rem solid white;
+  border-radius: 20%;
+  margin: 3rem 0rem;
+  padding: 2rem;
+}
+.options span:first-child {
+  margin-right: 8rem;
+}
+.options span:hover {
+  cursor: pointer;
+  color: rgb(48, 80, 83);
+  background: rgba(255, 255, 255, .6);
+}
+
+.col-xs-4 {
+  padding: 3rem 0 2rem;
+  cursor: pointer;
+  height: 8rem;
+}
+
+.center {
+  border-top: .2rem solid white;
+  border-bottom: .2rem solid white;
+}
+
+.middle {
+  border-left: .2rem solid white;
+  border-right: .2rem solid white;
+}
+
+.top {
+  padding-top: 3rem;
+}
+
+.bottom {
+  padding-bottom: 3.5rem;
+}
+
+.endmess {
+  margin-top: 0rem !important;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+/* -- MEDIA QUERIES -- */
+
+@media screen and (min-width: 45rem) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 100rem) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 140rem) {
+  html {
+    font-size: 25px;
+  }
+}
